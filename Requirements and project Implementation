@@ -1,0 +1,36 @@
+REQUIREMENS
+software Requirements :
+
+1. Arduino IDE
+
+You will be needing Arduino IDE software to write and upload the programming 
+
+logic onto the Arduino Uno board
+
+2. Blynk App
+
+Also, you need to create an account in the Blynk app IoT to integrate the working of 
+
+the system physically on the Blynk app
+
+10.2 Hardware Requirements :
+
+1. Power Supply Board
+
+2.  Channel Relay
+
+3. Node MCU (ESP8266)
+
+ Project Implementation
+
+1. An application is installed in the mobile (Blynk).
+
+2. ESP8266 Wi-Fi module used for providing communication between the application 
+
+and system
+
+3. By using this we can switch on or off the lights or fans automatically when we are 
+
+outside
+
+4. Also the notification gets triggered in Blynk app whenever a motion is detected
