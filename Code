@@ -1,0 +1,91 @@
+// put your setup code here, to run once:
+
+pinMode(D4,OUTPUT); .
+
+}
+
+void loop() {
+
+ // put your main code here, to run repeatedly:
+
+digitalWrite(D4,HIGH);
+
+delay(5000);
+
+digitalWrite(D4,LOW);
+
+delay(5000);
+
+}
+
+void setup() {
+
+ // put your setup code here, to run once:
+
+pinMode(5,OUTPUT);
+
+pinMode(7,OUTPUT);
+
+pinMode(9,OUTPUT);
+
+}
+
+void loop() {
+
+ // put your main code here, to run repeatedly:
+
+digitalWrite(5,HIGH);
+
+delay(5000);
+
+digitalWrite(5,LOW);
+
+delay(5000);
+
+digitalWrite(7,HIGH);
+
+delay(500);
+
+digitalWrite(7,LOW);
+
+delay(500);
+
+digitalWrite(7,HIGH);
+
+delay(500);
+
+digitalWrite(7,LOW);
+
+delay(500);
+
+digitalWrite(7,HIGH);
+
+delay(500);
+
+digitalWrite(7,LOW);
+
+delay(500);
+
+digitalWrite(7,HIGH);
+
+delay(500);
+
+digitalWrite(7,LOW);
+
+delay(500);
+
+digitalWrite(9,HIGH);
+
+delay(5000);
+
+digitalWrite(9,LOW);
+
+delay(5000);
+
+}echo "# Home-automation" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Harshchoudhary7/Home-automation.git
+git push -u origin main
